@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  ul, ol, li{
+    list-style: none;
+  }
+  body {
+    height: 100vh;
+    background-color: #000000;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border-radius: 15px;
+  }
+  
+  h1 {
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    background-color: #ed0000a4; 
+    align-items: center;
+    color: #cfcfcf; 
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #000000; 
+    border-radius: 20px;
+  }
+  
+  img {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    background-size: none;
+    margin: 70px;
+    background-color: #000000; 
+    margin-bottom: 30px;
+    margin-right: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 50px rgb(0, 0, 0);
+    border: 4px solid #d62828; /* vermelho sangue */
+  }
+  
+  .div1,
+  .div2,
+  .div3 {
+    padding: 5px 5px;
+    transition: 2s;
+  }
+  
+  .div1:hover,
+  .div2:hover,
+  .div3:hover {
+    background-color: #951f1f58;
+    padding: 5px 20px;
+  }
